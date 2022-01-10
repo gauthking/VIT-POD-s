@@ -1,6 +1,6 @@
 n = int(input())
 prod = 1
-count = 0
+cnt = 0
 for i in range(1, n+1):
     prod *= i
     if prod == n:
@@ -18,6 +18,8 @@ for i in range(1, n+1):
                     prod1 *= p
             print(prod1)
     else:
-        count+=1
-        if count==n:
+        cnt+=1
+        if cnt==n:
             print(-1)
+
+
